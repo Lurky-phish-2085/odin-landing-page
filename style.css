@@ -6,9 +6,14 @@
 body {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: space-around;
   min-height: 100vh;
   font-family: "Roboto", sans-serif;;
+}
+
+.secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
 }
 
 header {
@@ -38,6 +43,31 @@ a {
 
 main {
   flex: 1;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 48px;
+  background: #1f2937;
+}
+
+.hero-section hgroup {
+  width: 290px;
+}
+
+.hero-statement {
+  font-size: 48px;
+  font-weight: 800;
+  color: #f9faf8;
+}
+
+.placeholder-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #e5e7eb;
+  padding: 64px;
 }
 
 footer {

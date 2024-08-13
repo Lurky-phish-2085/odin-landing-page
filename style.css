@@ -122,6 +122,25 @@ main {
   text-align: center;
 }
 
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 132px;
+  background: #e5e7eb;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-section strong {
+  align-self: end;
+}
+
 footer {
   display: flex;
   justify-content: center;

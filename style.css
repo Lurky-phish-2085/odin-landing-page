@@ -83,6 +83,45 @@ main {
   padding: 64px;
 }
 
+.information-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 32px;
+}
+
+.information-header {
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.items-group {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 4rem;
+  margin-top: 3rem;
+  margin-bottom: 64px;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  width: 132px;
+}
+
+.info-item-image {
+  border: 3px solid #3882f6;
+  border-radius: 8px;
+  width: 132px;
+  height: 128px;
+}
+
+.info-item-subtext {
+  text-align: center;
+}
+
 footer {
   display: flex;
   justify-content: center;

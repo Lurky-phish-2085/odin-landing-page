@@ -29,6 +29,20 @@ body {
   font-weight: bold;
 }
 
+.outlined-button {
+  background: inherit;
+  color: white;
+  margin-top: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-radius: 8px;
+  border: 2px solid white;
+  font-weight: bold;
+}
+
+
 header {
   display: flex;
   justify-content: space-around;
@@ -139,6 +153,27 @@ main {
 
 .quote-section strong {
   align-self: end;
+}
+
+.call-to-action-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  background: #3882f6;
+  margin: 164px;
+  padding: 64px;
+  width: 1280px;
+  border-radius: 8px;
+}
+
+.card h2 {
+  color: white;
+  font-weight: bold;
 }
 
 footer {

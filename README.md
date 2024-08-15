@@ -6,4 +6,5 @@ For this project, I have to apply all the basic HTML and CSS skills I learned so
 
 ## Live Preview
 
-Website under construction...
+
+[https://lurky-phish-2085.github.io/odin-landing-page](https://lurky-phish-2085.github.io/odin-landing-page) 

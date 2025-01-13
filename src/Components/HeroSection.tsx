@@ -11,7 +11,7 @@ function HeroSection() {
           This website has some subtext that goes here under the main title.
           It's a smaller font and the color is lower contrast.
         </p>
-        <PrimaryButton>Sign up</PrimaryButton>
+        <PrimaryButton className="mt-4">Sign up</PrimaryButton>
       </hgroup>
       <div className="flex flex-col justify-center items-center p-8 bg-slate-200">
         <p>this is a placeholder for an image</p>
